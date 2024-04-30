@@ -1,0 +1,52 @@
+.menucard-main{
+    /* background-color: #fff8db; */
+    background-color: lightpink;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 220px;
+    justify-content: flex-start;
+    /* align-items: center; */
+    padding-left: 20px;
+    border-radius: 30px;
+    /* margin:30px 50px; */
+    margin-right: 90px;
+    margin-top:80px;
+}
+.menucard-image{
+    width: 150px;
+    height: 150px;
+    border: 10px solid red;
+    border-radius: 50%;
+    margin-top: -40px;
+    margin-left: 70px;
+}
+.menucard-rating{
+    display: flex;
+    align-items: center;
+    margin-top: -40px;
+}
+.menucard-star{
+    margin-right: 10px;
+    color:yellow;
+
+}
+/* .menucard-rate{
+    margin-left: 20px;
+} */
+.menucard-price{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+.menucard-button{
+    background-color: red;
+    border-radius: 30px;
+    color:white;
+    border:none;
+    height:40px;
+    width:80px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+

@@ -1,0 +1,178 @@
+
+.home-profile{
+    display: flex;
+    align-items: center;
+}
+.home-head{
+    font-family: sans-serif;
+    color: red;
+    width:300px;
+}
+.home-foodle{
+    text-decoration: underline;
+}
+.order-button{
+    border: none;
+    /* background-color: #fff8db; */
+    background-color: lightpink;
+    font-size: 20px;
+    font-weight: 700;
+}
+.order-button:hover{
+    cursor: pointer;
+}
+.home-para{
+    width:300px;
+    font-family: sans-serif;
+    color:rgb(84, 78, 70);
+}
+.home-image{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+.home-buy{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: red;
+    height: 50px;
+    width: 125px;
+    border-radius: 30px;
+}
+.home-buy-button{
+    cursor: pointer;
+}
+.home-play{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home-play-icon{
+    color: rgb(255, 255, 0);
+    font-size: 25px;
+}
+.play-button{
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 90px;
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px;
+    border:5px solid;
+    border-color: white white white red;
+}
+.home-buttons{
+    width:350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.home-buy-button{
+    border:none;
+    color: white;
+    background-color: red;
+    font-size: 15px;
+}
+.home-lock-icon{
+    font-size: 20px;
+    height:30px;
+    width:30px;
+    background-color: yellow;
+    border-radius: 20px;
+}
+.home-arrow{
+    height: 100px;
+    width: 300px;
+}
+.home-logo{
+    height: 380px;
+    width: 450px;
+}
+.home-main-part{
+    /* background-color: #fff8db; */
+    background-color: lightpink;
+    display: flex;
+    justify-content: space-between;
+    padding:50px;
+}
+.home-icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+/*.......................bottom part......................*/
+.home-second-part{
+    /* min-height: 100vh; */
+    margin: 0px 40px;
+    background-color: rgb(255, 255, 254);
+    box-shadow: 2px 2px 2px rgb(232, 225, 225);
+    border-radius: 20px;
+    margin-top: -60px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 170px;
+}
+.truck-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 320px;
+    padding: 15px;
+    margin-left: 15px;
+}
+.truck-para{
+    width:250px;
+}
+.truck{
+    font-size: 30px;
+    margin-left: 9px;
+    margin-top: 9px;
+}
+.truck-related{
+    height:50px;
+    width:50px;
+    background-color: rgb(216, 193, 62);
+    border-radius: 25px;    
+}
+.truck-para-one{
+    margin-top: -15px;
+}
+
+@media screen and (max-width:768px){
+    .home-profile{
+        display: none;
+        flex-direction: column;
+    }
+    .home-main-part{
+        /* background-color: #fff8db; */
+        background-color: lightpink;
+        display: flex;
+        flex-direction: column;
+        padding:50px;
+    }
+    .home-icons{
+        display: flex;
+        flex-direction: column;
+    }
+    .home-second-part{
+        min-height: 100vh;
+        flex-wrap: wrap;
+    }
+    .home-arrow{
+        margin-top: 10px;
+        height: 120px;
+        width: 250px;
+    }
+    .home-logo{
+        height: 250px;
+        width: 350px;
+    }
+    .truck-icon{
+        margin-left: 0px;
+        padding: 0px;
+        margin-top: -20px;
+    }
+}

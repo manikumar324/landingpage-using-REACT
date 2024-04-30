@@ -1,0 +1,27 @@
+.deliver-one{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+.deliver-head{
+    width:300px;
+}
+.deliver-span{
+    color:red;
+}
+.deliver-para{
+    margin-top: 40px;
+    color:rgb(181, 165, 145);
+    width:300px;
+}
+.deliver-main{
+    /* min-height: 100vh; */
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+.deliver-main-head{
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px;
+}

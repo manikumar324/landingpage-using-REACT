@@ -153,6 +153,12 @@
     .home-arrow{
         display: none;
     }
+    .home-head{
+    font-family: sans-serif;
+    color: red;
+    width:300px;
+    font-size: 22px;
+    }
     .home-main-part{
         /* background-color: #fff8db; */
         background-color: lightpink;
@@ -168,15 +174,11 @@
         min-height: 100vh;
         flex-wrap: wrap;
     }
-    .home-logo{
-        height: 250px;
-        width: 350px;
-        margin: 20px;
-    }
+
     .truck-icon{
-        margin:15px;
+        margin:5px;
         padding: 0px;
-        margin-top: 20px;
+    
     }
     .home-buy{
         display: flex;
@@ -205,6 +207,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin-right: 50px;
     }
     .home-play-icon{
         
@@ -239,5 +242,10 @@
         justify-content: space-between;
         align-items: center;
         margin-top: 30px;
+    }
+    .home-logo{
+        height: 360px;
+        width: 360px;
+        margin: 20px 0px;
     }
 }

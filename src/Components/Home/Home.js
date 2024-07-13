@@ -23,7 +23,7 @@ const Home = () => {
                 <button className='home-buy-button'>Buy Now</button>
             </div>
             <div className='home-play'>
-                    <button className='play-button'><IoIosPlay className='home-play-icon'/></button>
+                <button className='play-button'><IoIosPlay className='home-play-icon'/></button>
                 <button className='order-button'>How To Order</button>
             </div>
         </div>

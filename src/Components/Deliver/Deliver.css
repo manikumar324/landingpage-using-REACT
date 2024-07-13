@@ -10,7 +10,6 @@
     color:red;
 }
 .deliver-para{
-    margin-top: 40px;
     color:rgb(181, 165, 145);
     width:300px;
 }
@@ -24,4 +23,20 @@
     background-color: white;
     margin-top: 20px;
     padding: 10px;
+}
+
+@media (max-width:768px) {
+    .deliver-one{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        /* margin-left: 50px; */
+    }
+    .deliver-para{
+        color:rgb(181, 165, 145);
+        width:300px;
+        padding: 20px 0px;
+    }
+    
 }

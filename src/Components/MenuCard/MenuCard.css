@@ -1,22 +1,24 @@
 .menucard-main{
-    /* background-color: #fff8db; */
     background-color: lightpink;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     width: 220px;
+    height:270px;
     justify-content: flex-start;
-    /* align-items: center; */
     padding-left: 20px;
     border-radius: 30px;
-    /* margin:30px 50px; */
     margin-right: 90px;
     margin-top:80px;
+    
+}
+.menucard-name{
+    margin-top: 20px;
 }
 .menucard-image{
     width: 150px;
     height: 150px;
-    border: 10px solid red;
+    border: 5px solid red;
     border-radius: 50%;
     margin-top: -40px;
     margin-left: 70px;
@@ -24,20 +26,23 @@
 .menucard-rating{
     display: flex;
     align-items: center;
-    margin-top: -40px;
+    /* margin-top: 5px; */
 }
 .menucard-star{
-    margin-right: 10px;
+    margin-right: 20px;
     color:yellow;
+    margin-top: 8px;
 
 }
-/* .menucard-rate{
-    margin-left: 20px;
-} */
+.menu-rate{
+    margin-top: 20px;
+}
+
 .menucard-price{
     display: flex;
     justify-content: space-between;
-    margin-top: -20px;
+    margin-top: -15px;
+    
 }
 .menucard-button{
     background-color: red;
@@ -50,3 +55,54 @@
     margin-right: 40px;
 }
 
+@media (max-width:768px) {
+    .menucard-main{
+        background-color: lightpink;
+        /* display: flex;
+        flex-wrap: wrap; */
+        width: 180px;
+        border-radius: 30px;
+        margin-top:80px;
+        height: 220px;
+        margin-bottom: 15px;
+    }
+    .menucard-image{
+        width: 120px;
+        height: 120px;
+        border: 5px solid red;
+        border-radius: 50%;
+        margin-top: -40px;
+        margin-left: 70px;
+    }
+    .menucard-name{
+        font-size:20px;
+    }
+    .menucard-rating{
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+    }
+    .menucard-star{
+        margin-right: 10px;
+        color:yellow;
+        margin-top: 8px;
+    
+    }
+    .menucard-price{
+        display: flex;
+        justify-content: space-between;
+        /* margin-top: -10px; */
+    }
+    .menucard-button{
+        background-color: red;
+        border-radius: 30px;
+        color:white;
+        border:none;
+        height:30px;
+        width:70px;
+        margin-right: 40px;
+    }
+    .menu-rate{
+        font-size: 20px;
+    }
+}

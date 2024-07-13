@@ -1,10 +1,10 @@
 import React from 'react';
 import './Menu.css';
-import { useState } from 'react';
+// import { useState } from 'react';
 import MenuCard from '../MenuCard/MenuCard';
 
 const Menu = () => {
-  const[value,setValue]=useState([
+  const value=[
     {
       image:"https://th.bing.com/th/id/R.63698cc97cc5c4fe1d1ce5dddcaac706?rik=19xJWmE1imMFog&riu=http%3a%2f%2ftrentapizza.co.uk%2fwp-content%2fuploads%2f2016%2f07%2fBuffalo-Chicken-Burger.jpg&ehk=BVBG0sEaYZL43o1vFYn1wOIJeiw%2fnBXyQgEctHI3xU0%3d&risl=&pid=ImgRaw&r=0",
       name:"Chicken Burger",
@@ -12,7 +12,7 @@ const Menu = () => {
       price:"$3.50",
     },
     {
-      image:"https://bigbitepizza.com.au/wp-content/uploads/2019/04/BBQ-Chicken-Pizza-4-819x1024.jpg",
+      image:"https://th.bing.com/th/id/OIP.1WD3pFM9y8wR57Hokq5ijAHaEt?rs=1&pid=ImgDetMain",
       name:"Chicken Pizza",
       rating:142,
       price:"$4.20",
@@ -41,7 +41,7 @@ const Menu = () => {
       rating:163,
       price:"$6.50",
     }
-  ])
+  ]
   return (
     <div>
       <div className='menu-main'>

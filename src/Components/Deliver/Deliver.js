@@ -22,7 +22,7 @@ const Deliver = () => {
     <div className='deliver-main-head'>
        <div className='deliver-one'>
             <h1 className='deliver-head'>Best <span className='deliver-span'>Delivered</span> Categories</h1>
-            <p className='deliver-para'>Here are Some Of Our Best Distributed Categories. If you Won't You Can Order From Here.</p>
+            <p className='deliver-para'>Here are Some Of Our Best Distributed Categories. If you Want You Can Order From Here.</p>
        </div>
         <ul className='deliver-main'>
                 {data.map((item, index) => ( 

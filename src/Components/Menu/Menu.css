@@ -13,7 +13,7 @@
 .menu-para{
     color:rgb(185, 170, 151);
     width:250px;
-    
+    padding: 10px 0px;
 }
 .menu-button{
     background-color: red;
@@ -33,4 +33,31 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+
+@media (max-width:768px) {
+    .menu-main{
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+       
+    }
+    .menu-main-head{
+        margin-left: 5px;
+    }
+    .menu-button{
+        background-color: red;
+        color:white;
+        height: 30px;
+        width: 80px;
+        border-radius: 30px;
+        border: none;
+        margin-top: 50px;
+        font-size: 16px;
+        margin-right: 10px;
+        font-weight: 600;
+    }
+    .menu-button:hover{
+        cursor: pointer;
+    }
 }

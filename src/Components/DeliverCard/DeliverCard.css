@@ -8,6 +8,9 @@
     height:250px;
     width:250px;
 }
+.deliver-item-name{
+    padding: 20px 0px;
+}
 .delivercard-link{
     text-decoration: none;
     color:red;

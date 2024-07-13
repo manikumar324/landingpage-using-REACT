@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
 import { TiLockClosedOutline } from "react-icons/ti";
-import { GoPlay } from "react-icons/go";
+// import { GoPlay } from "react-icons/go";
 import { FaTruckFast } from "react-icons/fa6";
 import { LuRefreshCcw } from "react-icons/lu";
 import { BsFillTruckFrontFill } from "react-icons/bs";
@@ -23,14 +23,13 @@ const Home = () => {
                 <button className='home-buy-button'>Buy Now</button>
             </div>
             <div className='home-play'>
-                {/* <GoPlay className='home-play-icon'/> */}
                     <button className='play-button'><IoIosPlay className='home-play-icon'/></button>
                 <button className='order-button'>How To Order</button>
             </div>
         </div>
         </div>
         <div className='home-icons'>
-            <div>
+            <div className='arrow'>
                 <img src='https://silentshoresjk.com/images/arrowimg.png' alt='dummy-pic' className='home-arrow'/>
             </div>
             <div>

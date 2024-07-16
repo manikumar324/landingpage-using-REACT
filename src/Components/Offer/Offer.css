@@ -6,7 +6,7 @@
 }
 .offer-one{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .offer-pic-one{
     height:310px;

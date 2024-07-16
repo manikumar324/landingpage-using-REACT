@@ -61,11 +61,12 @@
         background-color: lightpink;
         /* display: flex;
         flex-wrap: wrap; */
+        margin-left: 60px;
         width: 180px;
         border-radius: 30px;
-        margin-top:80px;
+        margin-top:30px;
         height: 220px;
-        margin-bottom: 15px;
+        margin-bottom: 20px;
     }
     .menucard-image{
         width: 120px;
